@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyRoom+</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="room">
+        <h1>Bem-vindo à StudyRoom+</h1>
+        <div class="timer">
+            <p id="timer">25:00</p>
+            <button id="start">Começar</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div class="stats">
+            <p>Moedas: <span id="coins">0</span></p>
+            <canvas id="studyChart" width="400" height="200"></canvas>
+        </div>
+
+        <div class="mascote">
+            <img id="pet" src="assets/pet1.png" alt="Mascote" width="150">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
