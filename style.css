@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/fundo.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.room {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mascote img {
+    margin-top: 20px;
+}
